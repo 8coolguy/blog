@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Production URL
-const hostname = "blog-two-teal-35.vercel.app/";
+const hostname = "blog-two-teal-35.vercel.app";
 const site = `https://${hostname}/`;
 
 // https://astro.build/config

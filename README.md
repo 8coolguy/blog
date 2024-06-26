@@ -29,7 +29,7 @@ _an [Astro] starter template for understated personal websites_
    deploy to Vercel from GHA (enables access to git history).
 3. Add `OG_IMAGE_SECRET` to secure your OG image endpoint.
 
-_[See full usage instructions.](#-usage)_
+_[See full usage instructions.](#-usage)_2
 
 ## 🏛 Project Structure
 
