@@ -15,7 +15,7 @@ export const GET = () =>
     description: "",
     // base URL for RSS <item> links
     // SITE will use "site" from your project's astro.config.
-    site: "blog-two-teal-35.vercel.app",
+    site: "https://blog-two-teal-35.vercel.app",
     // list of `<item>`s in output xml
     // simple example: generate items for every md file in /src/pages
     // see "Generating items" section for required frontmatter and advanced use cases
