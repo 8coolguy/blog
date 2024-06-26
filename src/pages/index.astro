@@ -20,20 +20,18 @@ posts.sort((a, b) => {
 ---
 
 <BaseLayout
-  title="zaduma"
-  description="Astro starter template for understated personal websites using Solid.js, Tailwind CSS, and MDX."
+  title="Random Stuff"
+  description="Blog created with zaduma to post about random projects that I made along the way."
 >
-  <h1 slot="header-content" class="text-gray-600 dark:text-gray-500">zaduma</h1>
+  <h1 slot="header-content" class="text-gray-600 dark:text-gray-500">Random Thoughts</h1>
   <main class="py-10 zaduma-prose">
     <Paragraph>
-      <small class="text-gray-600 dark:text-gray-500"
-        >IPA /zaˈdu.ma/ — reverie, musing</small
-      >
       <br />
-       is an Astro starter template for understated personal websites
+      Blog created with zaduma to post about random projects that I made along the way.
     </Paragraph>
     <Paragraph class="mt-6">
-      Learn about it by reading the articles below, take a look at the
+      Learn more about me through this
+      <Link href="https://8coolguy.github.io">website</Link> ,or by reading the articles below, take a look at the
       <Link href="https://github.com/hasparus/zaduma">readme</Link>, or boldly
       <Link href="https://github.com/hasparus/zaduma/generate">
         {"create a new repository"}
@@ -67,6 +65,9 @@ posts.sort((a, b) => {
       })
     }
   </ul>
+
+  
+  
   <style>
     ul:hover li:not(:hover) :where(h2, time) {
       @apply text-gray-600 transition-colors;
